@@ -1,5 +1,16 @@
 {
     "require-dev": {
         "phpunit/phpunit": "^6.4"
-    }
+    },
+    "autoload": {
+        "psr-4": {
+            "Codethrust\\": "src/CodeThrust"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Codethrust\\": "tests/Codethrust"
+        }
+    },
+    "bin": ["bin/converter"]
 }
