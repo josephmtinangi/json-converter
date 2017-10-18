@@ -9,7 +9,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Codethrust\\": "tests/Codethrust"
+            "Codethrust\\": "tests/CodeThrust"
         }
     },
     "bin": ["bin/converter"]
