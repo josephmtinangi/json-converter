@@ -1,5 +1,7 @@
 language: php
+
 php:
   - 7.1.1
+
 script:
-  ./vendor/bin/phpunit
+  - vendor/bin/phpunit
